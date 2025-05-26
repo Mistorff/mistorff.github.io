@@ -1,27 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Playfair+Display&display=swap');
 
-
-/*GLOBAL*/
+/* GLOBAL */
 body {
     padding-top: 5rem;
-
-}
-
-h1,h2,h3,h4,h5,h6 {
-    font-family: 'Playfair Display', serif;
-}
-
-
-main {
-    padding: 20px;
-}
-main.container-fluid {
-    width: 50%;
-}
-
-p {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 1.6rem;
 }
 
 nav {
@@ -32,8 +13,8 @@ nav {
     margin-left: 20px;
 }
 
-button.navbar-toggler{
-margin-right: 10px;
+button.navbar-toggler {
+    margin-right: 10px;
 }
 
 .home_2col {
@@ -41,5 +22,73 @@ margin-right: 10px;
 }
 
 img.dibley {
-    max-width: 100%
+    max-width: 100%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Playfair Display', serif;
+}
+
+main {
+    padding: 20px;
+}
+
+main.container-fluid {
+    width: 50%;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.6rem;
+}
+
+/* CSS Grid for grid.html */
+.grid-container {
+    display: grid;
+    gap: 10px;
+    grid-template-areas:
+        "one one"
+        "two three"
+        "four five"
+        "six six";
+    grid-template-columns: 1fr 1fr;
+}
+
+.box {
+    color: white;
+    font-size: 2em;
+    padding: 40px;
+    text-align: center;
+}
+
+.one {
+    background: red;
+    grid-area: one;
+}
+
+.two {
+    background: green;
+    grid-area: two;
+}
+
+.three {
+    background: yellow;
+    color: black;
+    grid-area: three;
+}
+
+.four {
+    background: blue;
+    grid-area: four;
+}
+
+.five {
+    background: purple;
+    grid-area: five;
+}
+
+.six {
+    background: pink;
+    color: black;
+    grid-area: six;
 }

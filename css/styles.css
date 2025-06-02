@@ -53,7 +53,7 @@ img.dibley {
    align-content: center;
  }
  
- .box1 { background-color: #FFA07A;
+ .box1 { background-color: #f8f9fa;
    grid-column: 1 / 4;
    grid-row: 1 / 2;
    border-radius: 5px;

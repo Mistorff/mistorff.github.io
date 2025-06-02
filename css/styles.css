@@ -60,28 +60,28 @@ img.dibley {
    padding: 2px
  }
  
- .box2 { background-color: #20B2AA;
+ .box2 { background-color: #dc3545;
    grid-column: 1 / 2;
    grid-row: 2 / 4;
    border-radius: 5px;
    padding: 2px
  }
  
- .box3 { background-color: #7B68EE; 
+ .box3 { background-color: #fd7e14; 
    grid-column: 2 / 4;
    grid-row: 2 / 3;
    border-radius: 5px;
    padding: 2px
  }
  
- .box4 { background-color: #DAA520;
+ .box4 { background-color: #ffc107;
    grid-column: 2 / 3;
    grid-row: 3 / 4;
    border-radius: 5px;
    padding: 2px
  }
  
- .box5 { background-color: #FFB6C1;
+ .box5 { background-color: #20c997;
     grid-column: 3 / 4;
    grid-row: 3 / 4;
    border-radius: 5px;

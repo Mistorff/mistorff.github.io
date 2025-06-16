@@ -24,12 +24,12 @@
     <span class="navbar-toggler-icon"></span>
   </button>
   <div class="collapse navbar-collapse" id="navbarsExampleDefault">
-    <ul class="navbar-nav mr-auto">
+    <ul class="navbar-nav me-auto">
       <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
       <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
       <li class="nav-item"><a class="nav-link" href="grid.html">Grid</a></li>
       <li class="nav-item"><a class="nav-link" href="components.html">Carousel</a></li>
-      <li class="nav-item active"><a class="nav-link" href="about.html">About</a></li>
+      <li class="nav-item active"><a class="nav-link active" href="about.html">About</a></li>
     </ul>
   </div>
 </nav>
@@ -44,7 +44,7 @@
   <script>
     const user = {
       name: 'Michael Noi',
-      imageUrl: 'images/about photo', // Make sure this image is 200x200 pixels and in the /images folder
+      imageUrl: 'images/about.jpg', // Make sure this image exists in your images folder and is 200x200 pixels
       bio: 'I am a final-year cybersecurity student at Champlain College. I have a passion for ethical hacking, digital forensics, and protecting systems from threats. I enjoy using technology to solve real-world problems and plan to pursue a career in cybersecurity and information assurance.'
     };
 
@@ -54,7 +54,7 @@
       alt: 'Photo of ' + user.name,
       width: 200,
       height: 200,
-      className: 'rounded-circle'
+      className: 'rounded-circle img-fluid'
     });
     const paragraph = React.createElement('p', { className: 'lead' }, user.bio);
 
@@ -69,5 +69,4 @@
 </body>
 </html>
 
-               
        
